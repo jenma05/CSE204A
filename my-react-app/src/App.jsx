@@ -3,17 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-export default function App() {
-  const [count, setCount] = useState(0)
+// export default function App() {
+//   const [count, setCount] = useState(0)
 
-  return (
-    <>
-    <Square/>
-    </>
-  )
-}
+//   return (
+//     <>
+//     </>
+//   )
+// }
 
-function Square() {
+export default function Board() {
   return (
     <>
       <div className="board-row">
