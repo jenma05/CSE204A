@@ -12,21 +12,8 @@ import './App.css'
 //   )
 // }
 
-function Square() {
-  const [value, setValue] = useState(null);
-
-  function handleClick() {
-    setValue('X');
-  }
-
-  return (
-    <button
-      className="square"
-      onClick={handleClick}
-    >
-      {value}
-    </button>
-  );
+function Square({value}) {
+  return <button className="square">{value}</button>;
 }
 
 export default function Board() {
